@@ -78,10 +78,10 @@ for url in urls:
         urls = set(x_urls)  # 去重得到唯一的URL列表
     
         # Writing unique URLs to a file
-       output_file_path = "tv/shen.txt"
+        output_file_path = "tv/shen.txt"
 
-with open(output_file_path, "w") as output_file:
-    for unique_url in urls:
-        output_file.write(f"{unique_url}\n")
+        with open(output_file_path, "w") as output_file:
+            for unique_url in urls:
+                output_file.write(f"{unique_url}\n")
 
-print("Unique URLs have been written to 'tv/shen.txt' successfully.")
+        print("Unique URLs have been written to 'tv/shen.txt' successfully.")
