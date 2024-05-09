@@ -34,8 +34,8 @@ jobs:
 
       - name: 提交更改
         run: |
-          git config --local user.email "csszue@gmail.com"  # 设置 Git 用户邮箱
-          git config --local user.name "MemoryCollection"  # 设置 Git 用户名
+          git config --local user.email "email@xf110.eu.org"  # 设置 Git 用户邮箱
+          git config --local user.name "xf110"  # 设置 Git 用户名
           cp tv/itvlist.txt ./  # 将 tv/itvlist.txt 文件复制到根目录
           git add tv/*  # 添加 tv/ 目录下的所有文件
           git add itvlist.txt  # 添加根目录下的 itvlist.txt 文件
